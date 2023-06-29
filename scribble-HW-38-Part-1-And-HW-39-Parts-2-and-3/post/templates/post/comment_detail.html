@@ -1,0 +1,20 @@
+{% extends  "post/base.html" %}
+
+{% block content %}
+  
+<h2>{{ comment.body }} <a href="{% url 'comment_update' pk=comment.id %}">(edit)</a></h2>
+
+
+
+<h3>Comment <a href="">(+)</a></h3>
+<ul>
+  {% for post in post.comments.all %}
+  <li>
+    <a href="">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<a href="{% url 'comment_delete' pk=comment.id %}">Delete</a>
+
+{% endblock content %}

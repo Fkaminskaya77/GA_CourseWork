@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+  <head>
+    <head>
+      <title>Post and Comments</title>
+      <link rel="stylesheet" href="{% static 'post/post.css' %}">
+    </head>
+  </head>
+  <body>
+    <h1>Post and Comments</h1>
+    <nav>
+      <a href="posts">Post</a>
+      <a href="comments">Comment</a>
+    </nav>
+    {% block content %} {% endblock %}
+  </body>
+</html>

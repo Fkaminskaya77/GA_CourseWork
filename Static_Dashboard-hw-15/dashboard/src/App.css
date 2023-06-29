@@ -1,0 +1,9 @@
+
+.App {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 2fr;
+    margin: 30px 30px;
+    background-color: #E5E4E2;
+   
+}

@@ -1,0 +1,16 @@
+{% extends  "post/base.html" %}
+
+{% block content %}
+  
+<h2>Posts <a href="post/new">(+)</a></h2>
+<ul>
+  {% for post in posts %}
+  <h1><a href="/post/{{post.id}}">{{ post.title }}</a></h1>
+  <h2>{{ post.body }}</h2>
+  <h3>Author: {{ post.author }}</h3>
+  <a href="/post/{{post.id}}/edit">Edit</a>
+ 
+  <a href="/post/{{post.id}}/delete">Delete</a>
+  {% endfor %}
+</ul>
+{% endblock content %}

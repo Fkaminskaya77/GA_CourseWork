@@ -1,0 +1,15 @@
+.MainInfo{
+    background-color: #E0E0E0;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 40px;
+    text-align: left;
+    text-indent: 30px;
+}
+
+.heading2 {
+    margin-left: 10px;
+}
+.bottomdata{
+    display: inline-flex;
+}

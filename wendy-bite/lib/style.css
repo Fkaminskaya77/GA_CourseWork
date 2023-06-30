@@ -1,0 +1,54 @@
+body {
+	background-color:#696969;
+	color: white;
+	margin: 0px;
+	padding:16px;
+	margin-left: auto;
+	margin-right: auto;
+	border:5px white solid;
+}
+div {   
+	width: 600px;
+    height: 900px;
+   	border: 5px white solid;
+    border-color: whitesmoke;
+    font-size: 20px;
+    font: white;
+    margin:0px;
+    padding: 50px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+header {
+	text-align: center;
+}
+
+h2{ text-align: center; 
+}
+
+main {
+	padding: 10 px;
+}
+
+img {
+	float: right;
+	margin:10px;
+	border:2px white solid;
+	padding: 10px;
+}
+p{
+	font-size: 20px;
+	text-align:justify;
+}
+footer {
+	text-align: center;
+	color:gray;
+	}
+a{
+	color: lightgreen;text-decoration:none;
+}
+.active {
+    color: white; text-decoration:none;
+ 
+
